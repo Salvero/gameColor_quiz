@@ -1,5 +1,5 @@
 body {
-  background-color: #232323;
+  background-color: #1D1C1C;
   margin: 0;
   font-family: "Montserrat", "Avenir";
 }
@@ -26,7 +26,6 @@ h1 {
   font-weight: normal;
   line-height: 1.3;
   text-align: center;
-  background: steelblue;
   margin: 0;
   text-transform: uppercase;
   padding: 50px 0;
@@ -39,6 +38,9 @@ h1 {
 #message {
   display: inline-block;
   width: 20%;
+  color: #FFF;
+  background-color: #000;
+  font-size: inherit;
 }
 
 
@@ -57,7 +59,7 @@ h1 {
 
 .selected {
   color: white;
-  background: steelblue;
+  background: #A62277;
 }
 
 button {
@@ -66,7 +68,7 @@ button {
   text-transform: uppercase;
   height: 100%;
   font-weight: 700;
-  color: steelblue;
+  color: #A62277;
   letter-spacing: 1px;
   font-size: inherit;
   transition: all 0.35s;
@@ -76,5 +78,5 @@ button {
 
 button:hover {
   color: white;
-  background: steelblue;
+  background: #A62277;
 }
